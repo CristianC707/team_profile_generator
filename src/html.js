@@ -21,26 +21,26 @@ generateHTML = (engineer, manager, intern) => {
 <main>
 <div class="card" style="width: 18rem;">
 <div class="card-body">
-<h5 class="card-title">${manager.managerName} 
-/n<i class="fa-solid fa-mug-hot"></i>${answers.addMembers}
+<h5 class="card-title">${manager.getName()} 
+/n<i class="fa-solid fa-mug-hot"></i>${manager.getRole()}
 </h5>
 <p class="card-text">
-ID:${answers.managerId} 
-/nEmail:<a href="mailto:${answers.managerEmail} class="card-link">${answers.managerEmail}</a>
-/nOffice number:${answers.managerOfficeNumber}
+ID:${manager.getId()} 
+/nEmail:<a href="mailto:${manager.getEmail()} class="card-link">${manager.getEmail()}</a>
+/nOffice number:${manager.getOfficeNumber()}
 </p>
 </div>
 </div>
 
 <div class="card" style="width: 18rem;">
 <div class="card-body">
-<h5 class="card-title">${answers.engineerName} 
-/n<i class="fa-solid fa-glasses"></i>${answers.addMembers}
+<h5 class="card-title">${engineer.getName()} 
+/n<i class="fa-solid fa-glasses"></i>${engineer.getRole()}
 </h5>
 <p class="card-text">
-ID:${answers.engineerId} 
-/nEmail:<a href="mailto:${answers.engineerEmail} class="card-link">${answers.engineerEmail}</a>
-/nGithub:${answers.engineerGithub}
+ID:${engineer.getId()} 
+/nEmail:<a href="mailto:${engineer.getEmail()} class="card-link">${engineer.getEmail()}</a>
+/nGithub:${engineer.getGithub()}
 </p>
 <a href="#" class="card-link">Card link</a>
 </div>
@@ -48,13 +48,13 @@ ID:${answers.engineerId}
 
 <div class="card" style="width: 18rem;">
 <div class="card-body">
-<h5 class="card-title">${answers.internName} 
-/n<i class="fa-solid fa-graduation-cap"></i>${answers.addMembers}
+<h5 class="card-title">${intern.getName()} 
+/n<i class="fa-solid fa-graduation-cap"></i>${intern.getRole()}
 </h5>
 <p class="card-text">
-ID:${answers.internId} 
-/nEmail:<a href="mailto:${answers.internEmail} class="card-link">${answers.internEmail}</a>
-/nSchool:${answers.internSchool}
+ID:${intern.internId()} 
+/nEmail:<a href="mailto:${intern.getEmail()} class="card-link">${intern.getEmail()}</a>
+/nSchool:${intern.getSchool()}
 </p>
 </div>
 </div>
