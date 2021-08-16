@@ -1,0 +1,29 @@
+{
+  "name": "team_profile_generator",
+  "version": "1.0.0",
+  "description": "Node CLI application",
+  "main": "Employee.test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Cristian Cuevas",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianC707/team_profile_generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CristianC707/team_profile_generator/issues"
+  },
+  "homepage": "https://github.com/CristianC707/team_profile_generator#readme",
+  "directories": {
+    "lib": "lib"
+  }
+}
