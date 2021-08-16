@@ -132,7 +132,7 @@ menu = () => {
     managerQuestions();
 
     createHtml = () => {
-        fs.writeFile(outputPath, generateHTML(teamMembers), "utf-8");
+        fs.writeFile(outputPath, generateHTML(employees), "utf-8");
         
     }
 
